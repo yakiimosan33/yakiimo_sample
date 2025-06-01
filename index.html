@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tennis Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="score-board">
+            <div class="player-score">
+                <span class="player-name">Player</span>
+                <span class="score" id="player-score">0</span>
+            </div>
+            <div class="game-info">
+                <span id="game-status">Press SPACE to start</span>
+            </div>
+            <div class="player-score">
+                <span class="player-name">Computer</span>
+                <span class="score" id="computer-score">0</span>
+            </div>
+        </div>
+        <canvas id="tennis-court" width="800" height="600"></canvas>
+        <div class="controls">
+            <p>Use W/S or Arrow Keys to move</p>
+            <p>Press SPACE to start/pause</p>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
