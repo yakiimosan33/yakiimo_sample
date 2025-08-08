@@ -1,32 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tennis Game</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>和食レストラン 鯛楽亭</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="game-container">
-        <div class="score-board">
-            <div class="player-score">
-                <span class="player-name">Player</span>
-                <span class="score" id="player-score">0</span>
-            </div>
-            <div class="game-info">
-                <span id="game-status">Press SPACE to start</span>
-            </div>
-            <div class="player-score">
-                <span class="player-name">Computer</span>
-                <span class="score" id="computer-score">0</span>
-            </div>
-        </div>
-        <canvas id="tennis-court" width="800" height="600"></canvas>
-        <div class="controls">
-            <p>Use W/S or Arrow Keys to move</p>
-            <p>Press SPACE to start/pause</p>
-        </div>
-    </div>
-    <script src="game.js"></script>
+  <header>
+    <div class="logo">鯛楽亭</div>
+    <nav>
+      <ul>
+        <li><a href="#about">こだわり</a></li>
+        <li><a href="#menu">お品書き</a></li>
+        <li><a href="#access">アクセス</a></li>
+        <li><a href="#contact">ご予約</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>心温まる和食を、あなたに。</h1>
+    <p>旬の食材を活かした丁寧な料理をお楽しみください。</p>
+    <a href="#contact" class="btn">ご予約はこちら</a>
+  </section>
+
+  <section id="about">
+    <h2>こだわり</h2>
+    <p>和食の伝統を大切にしながら、現代的なエッセンスを加えた料理を提供しています。</p>
+  </section>
+
+  <section id="menu">
+    <h2>お品書き</h2>
+    <ul class="menu-list">
+      <li>季節の前菜盛り合わせ</li>
+      <li>特選握り寿司</li>
+      <li>旬の天ぷら盛り合わせ</li>
+      <li>和牛ステーキ</li>
+    </ul>
+  </section>
+
+  <section id="access">
+    <h2>アクセス</h2>
+    <p>東京都千代田区丸の内1-1-1</p>
+  </section>
+
+  <section id="contact">
+    <h2>ご予約・お問い合わせ</h2>
+    <p>お電話: <a href="tel:0312345678">03-1234-5678</a></p>
+    <p>メール: <a href="mailto:info@example.com">info@example.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 鯛楽亭</p>
+  </footer>
 </body>
 </html>
